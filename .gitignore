@@ -1,0 +1,46 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Archivos de base de datos locales
+*.sqlite3
+*.db
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configs de entorno/local
+.env
+*.env
+
+# Cache de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de test/coverage (si usas pytest)
+htmlcov/
+.tox/
+.coverage
+.cache
+.pytest_cache/
+
+# Archivos de Uvicorn
+*.pid
